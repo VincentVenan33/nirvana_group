@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+}
+
+.leaf img {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: -1px;
+}
+
+.layer4 img {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: -1px;
+  z-index: -2;
+}
+.layer6{
+  margin-top: 200px;
+}
+.bg-layer6 img {
+  position: absolute;
+  width: 90%;
+  left: 85px;
+  top: 114px;
+  z-index: -1;
+}
+.logo1 img {
+  width: 150px;
+}
+
+.logo2 img {
+  width: 150px;
+}
+
+.logo3 img {
+  width: 130px;
+}
+
+.nav {
+  width: 643px;
+  height: 34px;
+}
+
+a .cool-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 22.2222px;
+  line-height: 33px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+}
+
+.group1 {
+  width: 1013px;
+  height: 573px;
+  text-align: left;
+  margin-top: 45px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts\Felix_Titling_MT.ttf);
+}
+
+.word1 {
+  font-family: myFirstFont;
+  font-size: 30pt;
+  line-height: 21px;
+  display: flex;
+  text-shadow: 2px 2px 1px black;
+}
+
+.word2 {
+  font-family: myFirstFont;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 60pt;
+  line-height: 45px;
+  display: flex;
+  text-shadow: 2px 2px 1px black;
+}
+
+.group1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15pt;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.group1 button {
+  background-color: #fffa6a;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  border: none;
+  border-radius: 100px;
+  width: 270px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.group1 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15pt;
+  line-height: 33px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+}
+
+.fog img {
+  position: absolute;
+  width: 86.5%;
+  left: 115px;
+  top: 470px;
+}
+
+.teh {
+  position: absolute;
+  width: 27%;
+  left: 1234px;
+  top: 390px;
+}
+
+.teh-shadow {
+  position: absolute;
+  width: 27%;
+  left: 1234px;
+  top: 840px;
+  z-index: -1;
+}
+
+.strawberry {
+  position: absolute;
+  width: 25%;
+  left: 1008px;
+  top: 620px;
+}
+
+.strawberry-shadow {
+  position: absolute;
+  width: 25%;
+  left: 1008px;
+  top: 950px;
+  z-index: -1;
+}
+
+.big-fog img {
+  position: absolute;
+  width: 100%;
+  top: 515px;
+  z-index: -2;
+}
+.middle{
+margin-top: 215px;
+}
+
+.bg-middle img {
+  position: absolute;
+  width: 90%;
+  left: 169.1px;
+  top: 1163px;
+  z-index: -1;
+}
+
+.group2 {
+  width: 1077px;
+  height: 559px;
+  text-align: right;
+  margin-top: 340px;
+  margin-left: 550px;
+  margin-right: 0;
+}
+
+.group2 .word3 {
+  font-family: myFirstFont;
+  font-size: 48pt;
+  line-height: 21px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.group2 .word4 {
+  margin-top: 59px;
+  margin-bottom: 47px;
+  font-family: myFirstFont;
+  font-size: 100.38pt;
+  line-height: 45px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.group2 button {
+  background-color: #80ff00;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  border: none;
+  border-radius: 100px;
+  width: 270px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.word5 {
+  font-family: myFirstFont;
+  font-size: 48pt;
+  line-height: 21px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.word6 {
+  margin-top: 68px;
+  margin-bottom: 41px;
+  font-family: myFirstFont;
+  font-size: 72pt;
+  line-height: 45px;
+  align-items: center;
+  text-shadow: 2px 2px 1px black;
+}
+
+.group2 p {
+  align-items: center;
+  font-weight: 500;
+  font-size: 24pt;
+}
+
+.group2 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15pt;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.middle2{
+  margin-top: 250px;
+}
+
+.bg-middle2 img {
+  position: absolute;
+  width: 90%;
+  left: 0px;
+  top: 2129px;
+  z-index: -1;
+}
+
+.group3 {
+  margin-top: 400px;
+  margin-left: 60px;
+}
+
+.group3 p {
+  align-items: center;
+  font-weight: 500;
+  font-size: 33.3333px;
+}
+
+.group3 button {
+  background-color: #ffb600;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  border: none;
+  border-radius: 100px;
+  width: 270px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.group3 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15pt;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom{
+  margin-top: 520px;
+}
+
+.bg-bottom img {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 3168px;
+  z-index: -1;
+}
+
+.copyright{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 19.4444px;
+line-height: 7px;
+/* identical to box height, or 38% */
+
+display: flex;
+align-items: center;
+}
+
+.nirvana{
+  width: 299px;
+  margin-bottom: 10px;
+}
+
+.head{
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
