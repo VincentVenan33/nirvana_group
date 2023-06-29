@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.top{
+  height: 972px;
+}
+
 .leaf img {
   position: absolute;
   width: 100%;
@@ -16,9 +20,11 @@ body {
   top: -1px;
   z-index: -2;
 }
-.layer6{
+
+.layer6 {
   margin-top: 200px;
 }
+
 .bg-layer6 img {
   position: absolute;
   width: 90%;
@@ -26,6 +32,7 @@ body {
   top: 114px;
   z-index: -1;
 }
+
 .logo1 img {
   width: 150px;
 }
@@ -47,8 +54,6 @@ a .cool-link {
   font-family: "Roboto", sans-serif;
   font-size: 22.2222px;
   line-height: 33px;
-  /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
 }
@@ -57,8 +62,9 @@ a .cool-link {
   width: 1013px;
   height: 573px;
   text-align: left;
-  margin-top: 45px;
+  margin-top: 60px;
 }
+
 @font-face {
   font-family: myFirstFont;
   src: url(fonts\Felix_Titling_MT.ttf);
@@ -93,9 +99,7 @@ a .cool-link {
 
 .group1 button {
   background-color: #fffa6a;
-  padding-left: 40px;
-  padding-top: 10px;
-  padding-bottom: 11px;
+  padding: 15px;
   border: none;
   border-radius: 100px;
   width: 270px;
@@ -107,80 +111,44 @@ a .cool-link {
   font-family: "Roboto", sans-serif;
   font-size: 15pt;
   line-height: 33px;
-  /* identical to box height, or 100% */
-
-  display: flex;
-  align-items: center;
-}
-
-.fog img {
-  position: absolute;
-  width: 86.5%;
-  left: 115px;
-  top: 470px;
 }
 
 .teh {
   position: absolute;
-  width: 27%;
-  left: 1234px;
-  top: 390px;
+  width: 20%;
+  right: 0;
+  top: 60%;
 }
 
-.teh-shadow {
-  position: absolute;
-  width: 27%;
-  left: 1234px;
-  top: 840px;
-  z-index: -1;
-}
 
 .strawberry {
   position: absolute;
-  width: 25%;
-  left: 1008px;
-  top: 620px;
+  width: 20%;
+  right:10%;
+  top: 80%;
 }
 
-.strawberry-shadow {
-  position: absolute;
-  width: 25%;
-  left: 1008px;
-  top: 950px;
-  z-index: -1;
-}
-
-.big-fog img {
-  position: absolute;
-  width: 100%;
-  top: 515px;
-  z-index: -2;
-}
-.middle{
-margin-top: 215px;
+.middle {
+  margin-top: 130px;
+  height: 1110px;
 }
 
 .bg-middle img {
   position: absolute;
   width: 90%;
-  left: 169.1px;
-  top: 1163px;
+  right: 0;
   z-index: -1;
 }
 
 .group2 {
-  width: 1077px;
-  height: 559px;
   text-align: right;
-  margin-top: 340px;
-  margin-left: 550px;
-  margin-right: 0;
+  margin-right: 10%;
+  padding-top: 10%;
 }
 
 .group2 .word3 {
   font-family: myFirstFont;
   font-size: 48pt;
-  line-height: 21px;
   text-shadow: 2px 2px 1px black;
 }
 
@@ -236,20 +204,19 @@ margin-top: 215px;
   align-items: center;
 }
 
-.middle2{
-  margin-top: 250px;
+.middle2 {
+  height: 1200px;
 }
 
 .bg-middle2 img {
   position: absolute;
   width: 90%;
   left: 0px;
-  top: 2129px;
   z-index: -1;
 }
 
 .group3 {
-  margin-top: 400px;
+  padding-top: 15%;
   margin-left: 60px;
 }
 
@@ -279,36 +246,37 @@ margin-top: 215px;
   align-items: center;
 }
 
-.bottom{
-  margin-top: 520px;
+.bottom {
+  height: 468px;
 }
 
 .bg-bottom img {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 3168px;
   z-index: -1;
 }
 
-.copyright{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 19.4444px;
-line-height: 7px;
-/* identical to box height, or 38% */
-
-display: flex;
-align-items: center;
+.box{
+  padding-top: 5%;
 }
 
-.nirvana{
+.copyright {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19.4444px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.nirvana {
   width: 299px;
   margin-bottom: 10px;
 }
 
-.head{
+.head {
   color: yellow;
   margin-bottom: 20px;
 }
