@@ -98,7 +98,7 @@ a .cool-link {
 }
 
 .group1 button {
-  background-color: #fffa6a;
+  background: linear-gradient(90deg, rgba(255,250,114,1) 0%, rgba(255,247,27,1) 50%, rgba(255,245,0,1) 100%);
   padding: 15px;
   border: none;
   border-radius: 100px;
@@ -142,7 +142,7 @@ a .cool-link {
 
 .group2 {
   text-align: right;
-  margin-right: 10%;
+  margin-right: 5%;
   padding-top: 10%;
 }
 
@@ -162,10 +162,8 @@ a .cool-link {
 }
 
 .group2 button {
-  background-color: #80ff00;
-  padding-left: 40px;
-  padding-top: 10px;
-  padding-bottom: 11px;
+  background: linear-gradient(90deg, rgba(186,255,118,1) 0%, rgba(139,255,24,1) 50%, rgba(128,255,0,1) 100%);
+  padding: 15px;
   border: none;
   border-radius: 100px;
   width: 270px;
@@ -200,8 +198,6 @@ a .cool-link {
   font-family: "Roboto", sans-serif;
   font-size: 15pt;
   line-height: 33px;
-  display: flex;
-  align-items: center;
 }
 
 .middle2 {
@@ -227,10 +223,8 @@ a .cool-link {
 }
 
 .group3 button {
-  background-color: #ffb600;
-  padding-left: 40px;
-  padding-top: 10px;
-  padding-bottom: 11px;
+  background: linear-gradient(90deg, rgba(255,216,118,1) 0%, rgba(255,187,23,1) 50%, rgba(255,182,0,1) 100%);
+  padding: 15px;
   border: none;
   border-radius: 100px;
   width: 270px;
@@ -242,8 +236,6 @@ a .cool-link {
   font-family: "Roboto", sans-serif;
   font-size: 15pt;
   line-height: 33px;
-  display: flex;
-  align-items: center;
 }
 
 .bottom {
@@ -258,7 +250,7 @@ a .cool-link {
 }
 
 .box{
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .copyright {
@@ -266,7 +258,6 @@ a .cool-link {
   font-style: normal;
   font-weight: 300;
   font-size: 19.4444px;
-  line-height: 7px;
   display: flex;
   align-items: center;
 }
@@ -277,12 +268,11 @@ a .cool-link {
 }
 
 .head {
-  color: yellow;
-  margin-bottom: 20px;
+  color: #FFCC01;
 }
 
 .about {
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-wrap: unset !important;
 }
