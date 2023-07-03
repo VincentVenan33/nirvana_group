@@ -65,13 +65,8 @@ a .cool-link {
   margin-top: 60px;
 }
 
-@font-face {
-  font-family: myFirstFont;
-  src: url(fonts\Felix_Titling_MT.ttf);
-}
-
 .word1 {
-  font-family: myFirstFont;
+  font-family: "Roboto", sans-serif;
   font-size: 30pt;
   line-height: 21px;
   display: flex;
@@ -79,7 +74,7 @@ a .cool-link {
 }
 
 .word2 {
-  font-family: myFirstFont;
+  font-family: "Roboto", sans-serif;
   margin-top: 25px;
   margin-bottom: 25px;
   font-size: 60pt;
@@ -95,6 +90,7 @@ a .cool-link {
   line-height: 42px;
   display: flex;
   align-items: center;
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .group1 button {
@@ -147,7 +143,7 @@ a .cool-link {
 }
 
 .group2 .word3 {
-  font-family: myFirstFont;
+  font-family: "Roboto", sans-serif;
   font-size: 48pt;
   text-shadow: 2px 2px 1px black;
 }
@@ -155,7 +151,7 @@ a .cool-link {
 .group2 .word4 {
   margin-top: 59px;
   margin-bottom: 47px;
-  font-family: myFirstFont;
+  font-family: "Roboto", sans-serif;
   font-size: 100.38pt;
   line-height: 45px;
   text-shadow: 2px 2px 1px black;
@@ -171,7 +167,7 @@ a .cool-link {
 }
 
 .word5 {
-  font-family: myFirstFont;
+  font-family: "Roboto", sans-serif;
   font-size: 48pt;
   line-height: 21px;
   text-shadow: 2px 2px 1px black;
@@ -180,7 +176,7 @@ a .cool-link {
 .word6 {
   margin-top: 68px;
   margin-bottom: 41px;
-  font-family: myFirstFont;
+  font-family: "Roboto", sans-serif;
   font-size: 72pt;
   line-height: 45px;
   align-items: center;
@@ -191,6 +187,7 @@ a .cool-link {
   align-items: center;
   font-weight: 500;
   font-size: 24pt;
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .group2 a {
@@ -220,6 +217,7 @@ a .cool-link {
   align-items: center;
   font-weight: 500;
   font-size: 33.3333px;
+  text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .group3 button {
