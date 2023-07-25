@@ -30,17 +30,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/script.js"></script>
   </head>
   <body>
-    <div class="top">
+    <div class="top" data-aos="zoom-out">
       <div class="leaf">
         <img src="assets/Layer 5.png" alt="" />
       </div>
       <div class="layer4">
         <img class="headerbg" src="assets/headerbg.jpg" alt="" />
         <div class="cloud">
-          <img src="assets/flakes.png" alt="">
+          <img src="assets/flakes.png" alt="" />
         </div>
       </div>
       <div class="layer6">
@@ -83,7 +85,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div
-                    class="collapse navbar-collapse justify-content-end"
+                    class="nav-atas collapse navbar-collapse justify-content-end"
                     id="navbarSupportedContent"
                   >
                     <ul class="navbar-nav mb-1 mb-lg-0">
@@ -147,7 +149,7 @@
         </div>
       </div>
     </div>
-    <div class="middle">
+    <div class="middle" data-aos="fade-left">
       <div class="bg-middle">
         <img src="assets/Layer 9.png" alt="" />
       </div>
@@ -166,7 +168,7 @@
         </button>
       </div>
     </div>
-    <div class="middle2">
+    <div class="middle2" data-aos="fade-right">
       <div class="div bg-middle2">
         <img src="assets/Layer 10.png" alt="" />
       </div>
@@ -186,7 +188,7 @@
         </button>
       </div>
     </div>
-    <div class="bottom">
+    <div class="bottom" data-aos="zoom-in">
       <div class="bg-bottom">
         <img src="assets/Vector Smart Object.png" alt="" />
       </div>
@@ -266,4 +268,26 @@
       </div>
     </div>
   </body>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false,
+      startEvent: "DOMContentLoaded",
+      initClassName: "aos-init",
+      animatedClassName: "aos-animate",
+      useClassNames: false,
+      disableMutationObserver: false,
+      debounceDelay: 50,
+      throttleDelay: 99,
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120,
+      delay: 0,
+      duration: 1000,
+      easing: "ease",
+      once: false,
+      mirror: false,
+      anchorPlacement: "top-bottom"
+    });
+  </script>
 </html>

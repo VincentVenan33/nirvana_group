@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .top{
@@ -10,14 +11,15 @@ body {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: -1px;
+  top: -22%;
+  z-index: 0;
 }
 
 .layer4 img.headerbg {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: -1px;
+  top: -22%;
   z-index: -3;
 }
 
@@ -56,7 +58,7 @@ body {
   position: absolute;
   width: 90%;
   left: 85px;
-  top: 114px;
+  top: -12%;
   z-index: -2;
 }
 
