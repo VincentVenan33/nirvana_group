@@ -18,14 +18,14 @@ body {
   width: 100%;
   left: 0px;
   top: -1px;
-  z-index: -2;
+  z-index: -3;
 }
 
 .layer4 .cloud {
   position: absolute;
   width: 100%;
   left: 0px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .layer4 .cloud {
@@ -57,7 +57,7 @@ body {
   width: 90%;
   left: 85px;
   top: 114px;
-  z-index: -1;
+  z-index: -2;
 }
 
 .logo1 img {
