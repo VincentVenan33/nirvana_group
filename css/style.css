@@ -29,6 +29,9 @@ body {
   left: 0px;
   z-index: -1;
 }
+.layer4 .cloud img{
+  width: 90%;
+}
 
 .layer4 .cloud {
   -webkit-animation: wavestrawberry 3s 0.1s infinite linear;
@@ -51,7 +54,7 @@ body {
 }
 
 .layer6 {
-  margin-top: 200px;
+  margin-top: 10.5%;
 }
 
 .bg-layer6 img {
@@ -213,7 +216,6 @@ a .cool-link {
 }
 
 .middle {
-  margin-top: 130px;
   height: 1110px;
 }
 
@@ -390,6 +392,15 @@ a .cool-link {
     font-size: 79%;
   }
 
+  .middle{
+    margin-top: 17%;
+    height: 630px;
+  }
+
+  .middle2 {
+    height: 685px;
+  }
+
   .group1 {
     width: 880px;
     height: 320px;
@@ -441,9 +452,6 @@ a .cool-link {
     line-height: 33px;
   }
 
-  .middle {
-    height: 600px;
-  }
   
   .group2 {
     text-align: right;
@@ -487,10 +495,6 @@ a .cool-link {
   .group2 a {
     font-size: 13pt;
   }
-
-  .middle2 {
-    height: 800px;
-  }
   
   .group3 p {
     font-size: 20.3333px;
@@ -506,7 +510,7 @@ a .cool-link {
   }
 
   .bottom {
-    height: 284px;
+    height: 283px;
   }
   
   .box{
@@ -548,6 +552,26 @@ a .cool-link {
   .med-sos{
     width: 50%;
   }
+
+  .layer6 {
+    margin-top: 10.5%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .layer6 {
+    margin-top: 8.5%;
+  }
+
+  .middle {
+    margin-top: 30%;
+    height: 760px;
+  }
+
+  .middle2{
+    height: 830px;
+  }
+  
 }
 
 /* Aturan CSS untuk layar dengan lebar minimum 768px */
@@ -555,13 +579,16 @@ a .cool-link {
   .top{
     height: 972px;
   }
+  .layer6 {
+    margin-top: 14.5%;
+  }
 
   .content1{
     max-width: 1015px !important;
   }
 
   .ukuran-link{
-    font-size: 120%;
+    font-size: 110%;
   }
 
   .group1 {
@@ -572,7 +599,7 @@ a .cool-link {
   }
 
   .logo1 img {
-    width: 150px;
+    width: 130px;
   }
   
   .logo2 img {
@@ -605,7 +632,7 @@ a .cool-link {
   
   .word1 {
     font-family: "Roboto", sans-serif;
-    font-size: 30pt;
+    font-size: 20pt;
     line-height: 21px;
     display: flex;
     text-shadow: 2px 2px 1px black;
@@ -613,9 +640,9 @@ a .cool-link {
   
   .word2 {
     font-family: "Roboto", sans-serif;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 25px;
-    font-size: 60pt;
+    font-size: 45pt;
     line-height: 45px;
     display: flex;
     text-shadow: 2px 2px 1px black;
@@ -625,7 +652,7 @@ a .cool-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 15pt;
-    line-height: 42px;
+    line-height: 32px;
     display: flex;
     align-items: center;
     text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
@@ -633,10 +660,10 @@ a .cool-link {
   
   .group1 button {
     background: linear-gradient(90deg, rgba(255,250,114,1) 0%, rgba(255,247,27,1) 50%, rgba(255,245,0,1) 100%);
-    padding: 15px;
+    padding: 10px;
     border: none;
     border-radius: 100px;
-    width: 270px;
+    width: 230px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
@@ -647,9 +674,16 @@ a .cool-link {
     line-height: 33px;
   }
 
+  .teh {
+    top: 40%;
+  }
+  .strawberry {
+    top: 55%;
+  }
+
   .middle {
-    margin-top: 130px;
-    height: 1110px;
+    margin-top: -10%;
+    height: 860px;
   }
   
   .bg-middle img {
@@ -721,7 +755,7 @@ a .cool-link {
   }
 
   .middle2 {
-    height: 1200px;
+    height: 895px;
   }
 
   .group3 {
@@ -753,7 +787,7 @@ a .cool-link {
   }
 
   .bottom {
-    height: 468px;
+    height: 378px;
   }
   
   .bg-bottom img {
@@ -764,7 +798,7 @@ a .cool-link {
   }
   
   .box{
-    padding-top: 3%;
+    padding-top: 1%;
   }
   
   .copyright {
@@ -800,7 +834,7 @@ a .cool-link {
   }
 
   .batas{
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .med-sos{
@@ -811,5 +845,9 @@ a .cool-link {
 @media screen and (min-width: 1400px){
   .content1{
     max-width: 1320px !important;
+  }
+
+  .layer6 {
+    margin-top: 10.5%;
   }
 }
