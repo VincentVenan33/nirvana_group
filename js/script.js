@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
     const mediaQuery = window.matchMedia('(max-width: 1025px)');
+    const screen1366Query = window.matchMedia('(min-width: 1026px) and (max-width: 1366px)');
+  const screen1280Query = window.matchMedia('(min-width: 1026px) and (max-width: 1280px)');
   
     function handleMediaQuery(mediaQuery) {
       if (mediaQuery.matches) {
@@ -14,7 +16,24 @@ window.addEventListener('DOMContentLoaded', function() {
         const col3Element = document.querySelector('.row.about .col-3');
         col3Element.classList.remove('col-3');
         col3Element.classList.add('col-7');
-      } else {
+      } else if (screen1366Query.matches) {
+        // Code for screens with width between 1026px and 1366px (inclusive)
+  
+        // Modify col-3 to col-4 for the specified element
+        const col3Element = document.querySelector('.row.about .col-3');
+        col3Element.classList.remove('col-3');
+        col3Element.classList.add('col-4');
+  
+      } else if (screen1280Query.matches) {
+        // Code for screens with width between 1026px and 1280px (inclusive)
+  
+        // Modify col-3 to col-4 for the specified element
+        const col3Element = document.querySelector('.row.about .col-3');
+        col3Element.classList.remove('col-3');
+        col3Element.classList.add('col-4');
+  
+      }
+       else {
         // Kembalikan kelas ke kondisi awal jika tidak memenuhi media query
         const col2Elements = document.querySelectorAll('.row.about .col-2');
         col2Elements.forEach(function(element) {
@@ -32,5 +51,6 @@ window.addEventListener('DOMContentLoaded', function() {
   
     // Tambahkan event listener untuk menghandle perubahan pada media query
     mediaQuery.addEventListener('change', handleMediaQuery);
+    screen1366Query.addEventListener('change', handleMediaQuery);
+    screen1280Query.addEventListener('change', handleMediaQuery);
   });
-  
