@@ -59,9 +59,9 @@ body {
 
 .bg-layer6 img {
   position: absolute;
-  width: 90%;
-  left: 85px;
-  top: -12%;
+  width: 100%;
+  /* left: 85px; */
+  top: -9%;
   z-index: -2;
 }
 
@@ -426,20 +426,17 @@ a .cool-link {
   
 
   .word1 {
-    font-size: 20pt;
-    line-height: 21px;
+    font-size: 38pt;
   }
   
   .word2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 50pt;
-    line-height: 45px;
+    margin-top: 29px;
+    margin-bottom: 27px;
+    font-size: 50.38pt;
   }
   
   .group1 p {
-    font-size: 15pt;
-    line-height: 22px;
+    font-size: 14pt;
   }
   
   .group1 button {
@@ -472,7 +469,7 @@ a .cool-link {
   .group2 button {
     padding: 13px;
     border-radius: 100px;
-    width: 230px;
+    width: 200px;
   }
   
   .word5 {
@@ -494,6 +491,7 @@ a .cool-link {
   
   .group2 a {
     font-size: 13pt;
+    line-height: 33px;
   }
   
   .group3 p {
@@ -502,11 +500,12 @@ a .cool-link {
   
   .group3 button {
     padding: 13px;
-    width: 230px;
+    width: 200px;
   }
   
   .group3 a {
     font-size: 13pt;
+    line-height: 33px;
   }
 
   .bottom {
@@ -632,7 +631,7 @@ a .cool-link {
   
   .word1 {
     font-family: "Roboto", sans-serif;
-    font-size: 20pt;
+    font-size: 38pt;
     line-height: 21px;
     display: flex;
     text-shadow: 2px 2px 1px black;
@@ -642,7 +641,7 @@ a .cool-link {
     font-family: "Roboto", sans-serif;
     margin-top: 20px;
     margin-bottom: 25px;
-    font-size: 45pt;
+    font-size: 52pt;
     line-height: 45px;
     display: flex;
     text-shadow: 2px 2px 1px black;
@@ -651,8 +650,8 @@ a .cool-link {
   .group1 p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 15pt;
-    line-height: 32px;
+    font-size: 20pt;
+    /* line-height: 32px; */
     display: flex;
     align-items: center;
     text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
@@ -964,7 +963,7 @@ a .cool-link {
   
   .word1 {
     font-family: "Roboto", sans-serif;
-    font-size: 30pt;
+    font-size: 48pt;
     line-height: 21px;
     display: flex;
     text-shadow: 2px 2px 1px black;
@@ -972,9 +971,9 @@ a .cool-link {
   
   .word2 {
     font-family: "Roboto", sans-serif;
-    margin-top: 25px;
+    margin-top: 55px;
     margin-bottom: 25px;
-    font-size: 60pt;
+    font-size: 72pt;
     line-height: 45px;
     display: flex;
     text-shadow: 2px 2px 1px black;
@@ -983,8 +982,7 @@ a .cool-link {
   .group1 p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 15pt;
-    line-height: 42px;
+    font-size: 24pt;
     display: flex;
     align-items: center;
     text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
