@@ -437,11 +437,12 @@ a .cool-link {
   
   .group1 p {
     font-size: 14pt;
+    line-height: 35px;
   }
   
   .group1 button {
     padding: 13px;
-    width: 200px;
+    width: 250px;
   }
   
   .group1 a {
@@ -469,7 +470,7 @@ a .cool-link {
   .group2 button {
     padding: 13px;
     border-radius: 100px;
-    width: 200px;
+    width: 250px;
   }
   
   .word5 {
@@ -500,7 +501,7 @@ a .cool-link {
   
   .group3 button {
     padding: 13px;
-    width: 200px;
+    width: 250px;
   }
   
   .group3 a {
@@ -536,12 +537,9 @@ a .cool-link {
     flex-wrap: unset !important;
   }
 
+
   .ukuran-bottom{
     font-size:9%;
-  }
-
-  .nomor{
-    font-size: 80%;
   }
 
   .batas{
@@ -549,7 +547,7 @@ a .cool-link {
   }
 
   .med-sos{
-    width: 50%;
+    width: 30%;
   }
 
   .layer6 {
@@ -570,7 +568,10 @@ a .cool-link {
   .middle2{
     height: 830px;
   }
-  
+
+  .group1 p { 
+    line-height: 42px;
+  }
 }
 
 /* Aturan CSS untuk layar dengan lebar minimum 768px */
@@ -651,7 +652,7 @@ a .cool-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20pt;
-    /* line-height: 32px; */
+    line-height: 50px;
     display: flex;
     align-items: center;
     text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
@@ -837,7 +838,7 @@ a .cool-link {
   }
 
   .med-sos{
-    width: 80%;
+    width: 30%;
   }
 }
 
