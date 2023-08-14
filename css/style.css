@@ -510,7 +510,10 @@ a .cool-link {
   }
 
   .bottom {
-    height: 283px;
+    /* height: 283px; */
+    background-image: url("../assets/Vector Smart Object.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .box{
@@ -570,7 +573,7 @@ a .cool-link {
   }
 
   .group1 p { 
-    line-height: 42px;
+    line-height: 32px;
   }
 }
 
