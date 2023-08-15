@@ -9,19 +9,19 @@ function handleMediaQuery(mediaQuery) {
     <div class="col-3 p-0">
     <img class="med-sos" src="assets/ig.png" alt="" />
   </div>
-  <div class="col-7 p-0">
+  <div class="col-7 p-0 text-start">
     <h6 class="text-white">nirvanagroups</h6>
   </div>
   <div class="col-3 p-0">
     <img class="med-sos" src="assets/fb.png" alt="" />
   </div>
-  <div class="col-7 p-0">
+  <div class="col-7 p-0 text-start">
     <h6 class="text-white">nirvanagroups</h6>
   </div>
   <div class="col-3 p-0">
     <img class="med-sos" src="assets/wa.png" alt="" />
   </div>
-  <div class="col-7 p-0">
+  <div class="col-7 p-0 text-start">
     <h6 class="nomor text-white">0822-4776-9351</h6>
   </div>
     `;

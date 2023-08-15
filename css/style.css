@@ -510,7 +510,7 @@ a .cool-link {
   }
 
   .bottom {
-    /* height: 283px; */
+    height: 283px;
     background-image: url("../assets/Vector Smart Object.png");
     background-size: cover;
     background-repeat: no-repeat;
