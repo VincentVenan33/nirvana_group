@@ -6,19 +6,19 @@ function handleMediaQuery(mediaQuery) {
   if (mediaQuery.matches) {
     // Layar melebihi 1024px
     row.innerHTML = `
-    <div class="col-3 p-0">
+    <div class="col-3 p-0 pb-2">
     <img class="med-sos" src="assets/ig.png" alt="" />
   </div>
   <div class="col-7 p-0 text-start">
     <h6 class="text-white">nirvanagroups</h6>
   </div>
-  <div class="col-3 p-0">
+  <div class="col-3 p-0 pb-2">
     <img class="med-sos" src="assets/fb.png" alt="" />
   </div>
   <div class="col-7 p-0 text-start">
     <h6 class="text-white">nirvanagroups</h6>
   </div>
-  <div class="col-3 p-0">
+  <div class="col-3 p-0 pb-2">
     <img class="med-sos" src="assets/wa.png" alt="" />
   </div>
   <div class="col-7 p-0 text-start">
